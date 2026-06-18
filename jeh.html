@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>meta viewport</title>
+    <link rel="stylesheet" href="Css.jeh/style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Playwrite+HR:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body class="dark">
+    <header>
+        <div class="nav-wrapper">
+            <nav class="navbar navbar-expand-lg ">
+        
+                <a class="navbar-brand my-logo" href="#">Jehad Eboo </a>
+                <button class="navbar-toggler" id="b1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                    aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <div class="div">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Jehad Eboo</h5>
+                        </div>
+                      
+                    </div>
+        
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav  flex-grow-1 pe-3 my-ul-li">
+                            <li class="nav-item">
+                                <a class="nav-link " aria-current="page" href="jeh.html">Home</a>
+                            </li>
+        
+                            <li class="nav-item">
+                                <a class="nav-link " aria-current="page" href="#My mini blog">My mini blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " aria-current="page" href="#information">Information</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " aria-current="page" href="ContactUs.html">Contact Us</a>
+                            </li>
+                           
+        
+                        </ul>
+                        <div class="my-icon">
+                         
+                               <a href="#" class="toggle-btn" id="themeToggle"><i class="fa-solid fa-sun"></i></a>
+                        </div>
+        
+                    </div>
+        
+            </nav>
+        </div>
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-6 tital_my">
+                    <div >
+                        <h1>
+                            Hi,I`m <span>Jehad Eboo</span> Front End
+                        </h1>
+                        <p >I am studying at a technical computer institute, specializing in software; I am working on several projects and am also
+                        enrolled in various courses.</p>
+                           <div>
+                            <a href="https://www.instagram.com/jehad_eboo?igsh=MXI0cHgzaXVxcnN6dA==">
+                                <i class="fa-brands fa-square-instagram"></i>
+                            </a>
+                                <a href="https://www.facebook.com/share/1Cte9NzmC6/">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa-brands fa-telegram"></i>
+                                </a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                           </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 imgesmy">
+                    <div class="div">
+                        <img src="imges/myfoto.jpg" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+ <main>
+    <div class="row" id="mycard">
+        <div class="col-lg-12 mdonate">
+            <h4 id="My mini blog">My mini blog</h4>
+            <p>Welcome to my simple, locally hosted blog.</p>
+        </div>
+        <div class="col-lg-6">
+<article class="post-card">
+    <h2 class="post-title">Learn web basics</h2>
+    <div class="post-date">Publication date: 05 June 2026</div>
+    <p class="post-excerpt">HTML and CSS are the cornerstones of building any website and developing user interfaces; CSS represents the visual
+    presentation and aesthetic layer of any website...</p>
+    <button class="read-more-btn" onclick="showArticleMessage('Learn web basics ')">Read More </button>
+</article>
+<article class="post-card">
+    <h2 class="post-title">The importance of languageJavaScript</h2>
+    <div class="post-date"> Publication date: 05 June 2026</div>
+    <p class="post-excerpt">
+        Add interactive and dynamic JavaScript to static websites, enabling you to control elements and create unique effects...</p>
+    <button class="read-more-btn" onclick="showArticleMessage('The importance of language javaScript')"> Read More</button>
+</article>
+        </div>
+        <div class="col-lg-6">
+            <article class="post-card">
+                <h2 class="post-title">Responsive website design</h2>
+                <div class="post-date">Publication date: 05 June 2026</div>
+                <p class="post-excerpt">
+                Always ensure your website displays perfectly on mobile phones and large screens usingFlexbox and Grid technologies...</p>
+                <button class="read-more-btn" onclick="showArticleMessage('Responsive website design')">Read More</button>
+            </article>
+            <article class="post-card">
+                <h2 class="post-title">Mobile software design</h2>
+                <div class="post-date">Publication date: 05 June 2026</div>
+                <p class="post-excerpt">
+                    blends UI/UX design (look and feel) with robust software architecture (coding and structure) to create touch-first
+                applications for smartphones and tablets</p>
+                <button class="read-more-btn" onclick="showArticleMessage('  Mobile software design')"> Read More</button>
+            </article>
+        </div>
+    </div>
+    <!-- Swiper -->
+     <div class="container">
+        <div class="row" id="titalswiper">
+            <div class="col-lg-12 titalswiper">
+                <div id="New Arrival">New
+                    Arrival</div>
+            </div>
+        </div>
+        <div class="swiper-center">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="imges/swiper-img-1.svg" alt="">
+                        <div class="cont">
+                            <div class="new-50">
+                                <span> NEW</span>
+                                <span>-50%</span>
+                            </div>
+                            <div class="icon" date="1">
+                                <div id="1">
+                                    <i class="fa-solid fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Evaluate">
+                            <div class="evaluate-icons">
+                               
+                                <div class="evaluate-icons-tital">
+                                    <div class="product" data-id="1" data-name=" Loveseat Sofa" data-price="150">
+                                        <h3>Loveseat Sofa</h3>
+                                        <p>price: <span class="price">150</span> $</p>
+                                        <button class="add-to-cart">Add to cart</button>
+                                    </div>
+                                    
+                                    
+                                    <div id="cart">
+                                        <h2>cart (<span id="cart-count">0</span>)</h2>
+                                        <ul id="cart-items"></ul>
+                                        <p>total: <span id="cart-total">0</span> $</p>
+                                    </div>
+        
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide"><img src="imges/swiper-img-2.svg" alt="">
+                        <div class="cont">
+                            <div class="new-50">
+                                <span> NEW</span>
+                                <span>-50%</span>
+                            </div>
+                            <div class="icon" date="2">
+                                <div id="2">
+                                    <i class="fa-solid fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Evaluate">
+                            <div class="Evaluate">
+                                <div class="evaluate-icons">
+                            
+                                    <div class="evaluate-icons-tital">
+                                        <div class="product" data-id="2" data-name=" Light bulb" data-price="100">
+                                            <h3>Light bulb</h3>
+                                            <p>price: <span class="price">100</span> $</p>
+                                            <button class="add-to-cart">Add to cart</button>
+                                        </div>
+                                        <div id="cart">
+                                            <h2>cart (<span id="cart-count">0</span>)</h2>
+                                            <ul id="cart-items"></ul>
+                                            <p>total: <span id="cart-total">0</span> $</p>
+                                        </div>
+
+                            
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+                    </div>
+        
+                    <div class="swiper-slide"><img src="imges/swiper-img-3.svg" alt="">
+        
+                        <div class="cont">
+                            <div class="new-50">
+                                <span> NEW</span>
+                                <span>-50%</span>
+                            </div>
+                            <div class="icon" date="3">
+                                <div id="3">
+                                    <i class="fa-solid fa-heart "></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Evaluate">
+                            <div class="evaluate-icons">
+                        
+                                <div class="evaluate-icons-tital">
+                                    <div class="product" data-id="1" data-name=" Loveseat Sofa" data-price="150">
+                                        <h3>Loveseat Sofa</h3>
+                                        <p>price: <span class="price">150</span> $</p>
+                                        <button class="add-to-cart">Add to cart</button>
+                                    </div>
+                        
+                                    <div id="cart">
+                                        <h2>cart (<span id="cart-count">0</span>)</h2>
+                                        <ul id="cart-items"></ul>
+                                        <p>total: <span id="cart-total">0</span> $</p>
+                                    </div>
+                        
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide"><img src="imges/swiper-img-4.svg" alt="">
+        
+                        <div class="cont">
+                            <div class="new-50">
+                                <span> NEW</span>
+                                <span>-50%</span>
+                            </div>
+                            <div class="icon" date="4">
+                                <div id="4">
+                                    <i class="fa-solid fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="evaluate-icons">
+                        
+                            <div class="evaluate-icons-tital">
+                                <div class="product" data-id="1" data-name=" Loveseat Sofa" data-price="150">
+                                    <h3>Loveseat Sofa</h3>
+                                    <p>price: <span class="price">150</span> $</p>
+                                    <button class="add-to-cart">Add to cart</button>
+                                </div>
+                        
+                                <div id="cart">
+                                    <h2>cart (<span id="cart-count">0</span>)</h2>
+                                    <ul id="cart-items"></ul>
+                                    <p>total: <span id="cart-total">0</span> $</p>
+                                </div>
+                        
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide"><img src="imges/swiper-img-1.svg" alt="">
+        
+                        <div class="cont">
+                            <div class="new-50">
+                                <span> NEW</span>
+                                <span>-50%</span>
+                            </div>
+                            <div class="icon" date="5">
+                                <div id="5">
+                                    <i class="fa-solid fa-heart"></i>
+                                </div></i>
+                            </div>
+                        </div>
+                        <div class="evaluate-icons">
+                        
+                            <div class="evaluate-icons-tital">
+                                <div class="product" data-id="1" data-name=" Loveseat Sofa" data-price="150">
+                                    <h3>Loveseat Sofa</h3>
+                                    <p>price: <span class="price">150</span> $</p>
+                                    <button class="add-to-cart">Add to cart</button>
+                                </div>
+                        
+                                <div id="cart">
+                                    <h2>cart (<span id="cart-count">0</span>)</h2>
+                                    <ul id="cart-items"></ul>
+                                    <p>total: <span id="cart-total">0</span> $</p>
+                                </div>
+                        
+                            </div>
+                        </div>
+                    </div>
+        
+                </div>
+                <div class="swiper-scrollbar"></div>
+            </div>
+        </div>
+     </div>
+    <!-- end swiper 2 -->
+ <!-- start forrm-->
+<div class="row" id="mycard">
+    <div class="col-lg-12 tital-form">
+        <div id="information">
+            information
+        </div>
+    </div>
+    
+    <div class="col-lg-12 form">
+        <div class="form-container">
+            <h2> Form</h2>
+        
+            <form id="consultationForm" novalidate>
+                <div class="form-group">
+                    <label for="name">full name </label>
+                    <input type="text" id="name" placeholder="أدخل اسمك الكامل" required>
+                    <div class="error" id="nameError">يرجى إدخال اسمك</div>
+                </div>
+        
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" placeholder="example@email.com" required>
+                    <div class="error" id="emailError">يرجى إدخال بريد إلكتروني صحيح</div>
+                </div>
+        
+                <div class="form-group">
+                    <label for="message">The message or consultation</label>
+                    <textarea id="message" placeholder="اكتب استشارتك أو رسالتك هنا..." required></textarea>
+                    <div class="error" id="messageError">يرجى كتابة رسالتك</div>
+                </div>
+        
+                <button type="submit">Submit Consultation</button>
+            </form>
+        
+            <div class="success" id="successMessage">
+                ✅ تم إرسال استشارتك بنجاح! سنتواصل معك قريباً.
+            </div>
+        </div>
+    </div>
+</div>
+ <!-- end forrm-->
+
+
+
+ </main> 
+<footer>
+    <div class="footer-end">
+        <div class="container">
+            <div class="row  ">
+                <div class="col-lg-6 logg-end">
+                    <a href="#">Jehad Eboo
+                    </a>
+                    <span></span>
+                    <a href="#">Gift & Decoration Store</a>
+
+                </div>
+                <div class="col-lg-6 footer-ul-li">
+                    <ul>
+                        <li><a href="jeh.html">Home</a></li>
+                        <li><a href="#My mini blog">My mini blog</a></li>
+                        <li><a href="#information">Product</a></li>
+                        <li><a href="#">Contact Us</a></li>
+
+
+                    </ul>
+                </div>
+
+            </div>
+            <div class="foont"></div>
+            <!-- ************* -->
+            <div class="row  ">
+                <div class="col-lg-6 footer-icon-one">
+                    <ul>
+                        <li>Copyright © 2023 3legant. All rights reserved</li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+
+
+
+                    </ul>
+                </div>
+                <div class="col-lg-6 footer-icon-tow">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+
+
+                </div>
+
+            </div>
+        </div>
+
+        </nav>
+    </div>
+
+    </div>
+</footer>
+ 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+        
+        function showArticleMessage(articleTitle) {
+            alert("عذراً! المقال الكامل لـ (" + articleTitle + ") غير متوفر حالياً. تم إنشاء هذه المدونة كنموذج تجريبي فقط.");
+        }
+        /*swwwwwwwwwwwwwwww*/
+         var swiper = new Swiper(".mySwiper", {
+                slidesPerView: 1.5,
+                spaceBetween: 20,
+                centeredSlides: false,
+                slidesPerGroupSkip: 1,
+                keyboard: {
+                    enabled: true,
+                },
+                scrollbar: {
+                    el: ".swiper-scrollbar",
+                },
+
+                breakpoints: {
+                    769: {
+                        slidesPerView: 4,
+                        slidesPerGroup: 3,
+                    },
+                }
+
+
+            });
+    </script>
+    <script>
+          $('.icon ').click(function () {
+
+                var myVal = $(this).attr('date');
+                $('div[id="' + myVal + '"]').toggleClass('edat');
+
+            });
+    </script>
+    <script>
+        // سلة التسوق
+            let cart = [];
+
+            // إضافة حدث لكل أزرار "إضافة إلى السلة"
+            document.addEventListener('DOMContentLoaded', () => {
+                const addButtons = document.querySelectorAll('.add-to-cart');
+
+                addButtons.forEach(button => {
+                    button.addEventListener('click', () => {
+                        const product = button.parentElement;
+
+                        const id = product.dataset.id;
+                        const name = product.dataset.name;
+                        const price = parseFloat(product.dataset.price);
+
+                        addToCart(id, name, price);
+                    });
+                });
+            });
+
+            // دالة إضافة المنتج إلى السلة
+            function addToCart(id, name, price) {
+                // التحقق إذا كان المنتج موجود مسبقاً
+                const existingItem = cart.find(item => item.id === id);
+
+                if (existingItem) {
+                    existingItem.quantity += 1;
+                } else {
+                    cart.push({
+                        id: id,
+                        name: name,
+                        price: price,
+                        quantity: 1
+                    });
+                }
+
+                updateCartUI();
+
+                // رسالة تأكيد (اختياري)
+                showToast(`✅ تم إضافة ${name} إلى السلة`);
+            }
+
+            // تحديث واجهة السلة
+            function updateCartUI() {
+                const cartItems = document.getElementById('cart-items');
+                const cartCount = document.getElementById('cart-count');
+                const cartTotal = document.getElementById('cart-total');
+
+                cartItems.innerHTML = '';
+
+                let total = 0;
+
+                cart.forEach(item => {
+                    const itemTotal = item.price * item.quantity;
+                    total += itemTotal;
+
+                    const li = document.createElement('li');
+                    li.innerHTML = `
+      ${item.name} × ${item.quantity} = ${itemTotal} #
+      <button onclick="removeFromCart('${item.id}')">Delet</button>
+    `;
+                    cartItems.appendChild(li);
+                });
+
+                cartCount.textContent = cart.reduce((sum, item) => sum + item.quantity, 0);
+                cartTotal.textContent = total;
+            }
+
+            // حذف منتج من السلة
+            function removeFromCart(id) {
+                cart = cart.filter(item => item.id !== id);
+                updateCartUI();
+            }
+
+            // رسالة منبثقة (Toast)
+            function showToast(message) {
+                const toast = document.createElement('div');
+                toast.style.cssText = `
+    position: fixed; bottom: 20px; right: 20px; background: #4CAF50; color: white;
+    padding: 12px 20px; border-radius: 6px; z-index: 1000;
+  `;
+                toast.textContent = message;
+                document.body.appendChild(toast);
+
+                setTimeout(() => toast.remove(), 2000);
+            }
+    </script>
+    <script>
+        const form = document.getElementById('consultationForm');
+            const successMessage = document.getElementById('successMessage');
+
+            // دالة التحقق من الحقول
+            function validateForm() {
+                let isValid = true;
+
+                // الاسم
+                const name = document.getElementById('name').value.trim();
+                const nameError = document.getElementById('nameError');
+                if (name === '') {
+                    nameError.style.display = 'block';
+                    isValid = false;
+                } else {
+                    nameError.style.display = 'none';
+                }
+
+                // البريد الإلكتروني
+                const email = document.getElementById('email').value.trim();
+                const emailError = document.getElementById('emailError');
+                const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+                if (email === '') {
+                    emailError.textContent = 'يرجى إدخال بريد إلكتروني';
+                    emailError.style.display = 'block';
+                    isValid = false;
+                } else if (!emailRegex.test(email)) {
+                    emailError.textContent = 'يرجى إدخال بريد إلكتروني صحيح';
+                    emailError.style.display = 'block';
+                    isValid = false;
+                } else {
+                    emailError.style.display = 'none';
+                }
+
+                // الرسالة
+                const message = document.getElementById('message').value.trim();
+                const messageError = document.getElementById('messageError');
+                if (message === '') {
+                    messageError.style.display = 'block';
+                    isValid = false;
+                } else {
+                    messageError.style.display = 'none';
+                }
+
+                return isValid;
+            }
+
+            // معالجة الإرسال
+            form.addEventListener('submit', function (e) {
+                e.preventDefault(); // منع الإرسال الافتراضي
+
+                if (validateForm()) {
+                    // هنا يمكنك إضافة كود الإرسال الحقيقي (مثل fetch API)
+                    successMessage.style.display = 'block';
+                    form.style.display = 'none';
+
+                    // إعادة تعيين النموذج بعد 5 ثواني (اختياري)
+                    setTimeout(() => {
+                        form.reset();
+                        form.style.display = 'block';
+                        successMessage.style.display = 'none';
+                    }, 5000);
+                }
+            });
+
+            // إخفاء رسائل الخطأ عند الكتابة
+            const inputs = document.querySelectorAll('input, textarea');
+            inputs.forEach(input => {
+                input.addEventListener('input', () => {
+                    const error = document.getElementById(input.id + 'Error');
+                    if (error) error.style.display = 'none';
+                });
+            });
+    </script>
+</body>
+</html>
